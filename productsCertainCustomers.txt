@@ -1,0 +1,8 @@
+Doing a simple check to see if someone is logged in and has tags is a simple code
+
+{% if customer%}
+{%if customer.tags contains 'wholesale' %}
+rest of product stuff
+{% else%}
+sorry you do not have access to this product
+{%endif%}
